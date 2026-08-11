@@ -1,8 +1,8 @@
 class Gloop < Formula
   desc "Foreground Rust CLI for configurable multi-provider agent and command graphs"
   homepage "https://github.com/moto-taka/gloop"
-  url "https://github.com/moto-taka/gloop/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "b60b2ea33a959c43f979ac9a5a04afd975dc5702c73f1cf7bbdf318ad8b61187"
+  url "https://github.com/moto-taka/gloop/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "e3035d21d8ba158a17c01bbd02a37d520820ff4cc82c415cb209d12916dee896"
   license "Apache-2.0"
 
   depends_on "rust" => :build
