@@ -1,5 +1,5 @@
 class Gloop < Formula
-  desc "Foreground Rust CLI for configurable multi-provider agent and command graphs"
+  desc "Build and run configurable AI workflows"
   homepage "https://github.com/moto-taka/gloop"
   url "https://github.com/moto-taka/gloop/archive/refs/tags/v0.8.1.tar.gz"
   sha256 "3666f0ccfd40098bc6bdbff8abc0594c133beae7b134fac8065bb3055270b7d6"
@@ -12,6 +12,6 @@ class Gloop < Formula
   end
 
   test do
-    assert_match "Gloop CLI", shell_output("#{bin}/gloop --help")
+    assert_match "Usage: gloop", shell_output("#{bin}/gloop --help")
   end
 end
