@@ -1,8 +1,8 @@
 class Gloop < Formula
   desc "Build and run configurable AI workflows"
   homepage "https://github.com/moto-taka/gloop"
-  url "https://github.com/moto-taka/gloop/archive/refs/tags/v0.8.1.tar.gz"
-  sha256 "3666f0ccfd40098bc6bdbff8abc0594c133beae7b134fac8065bb3055270b7d6"
+  url "https://github.com/moto-taka/gloop/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "a6be43736dbc6cb0933eb9202242c463f82dd9b1941f59eaa56c89b43645af0c"
   license "Apache-2.0"
 
   depends_on "rust" => :build
