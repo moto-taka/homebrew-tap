@@ -1,8 +1,8 @@
 class JevCuJp < Formula
   desc "Choose Computer Use actions with Jev for Japanese and other interfaces"
   homepage "https://github.com/moto-taka/jev-cu-jp"
-  url "https://github.com/moto-taka/jev-cu-jp/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "418a84662485beb466299a9b263343f74f0153090b3c8368668d58e07c214343"
+  url "https://github.com/moto-taka/jev-cu-jp/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "68464b2c3206431c4ec185ad47b1685bdd4b79344a795e3abe73106ec701df33"
   license "MIT"
 
   depends_on "node"
